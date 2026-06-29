@@ -1,15 +1,15 @@
-<template>
+﻿<template>
   <nav class="nav" :class="{ scrolled }">
     <div class="container nav-inner">
-      <a href="#" class="nav-logo">梓<span>榭</span></a>
+      <a href="#" class="nav-logo">榭<span>栅</span></a>
       <ul class="nav-links" :class="{ open: mobileOpen }">
-        <li><a href="#about" @click="closeMobile">关于我们</a></li>
-        <li><a href="#menu" @click="closeMobile">精选菜单</a></li>
-        <li><a href="#gallery" @click="closeMobile">餐厅环境</a></li>
-        <li><a href="#contact" @click="closeMobile">联系我们</a></li>
+        <li><a href="#about" @click="closeMobile">鍏充簬鎴戜滑</a></li>
+        <li><a href="#menu" @click="closeMobile">绮鹃€夎彍鍗?/a></li>
+        <li><a href="#gallery" @click="closeMobile">椁愬巺鐜</a></li>
+        <li><a href="#contact" @click="closeMobile">鑱旂郴鎴戜滑</a></li>
       </ul>
-      <button class="nav-cta" @click="$emit('cta')">预订餐位</button>
-      <button class="nav-mobile-toggle" @click="mobileOpen = !mobileOpen" aria-label="菜单">
+      <button class="nav-cta" @click="$emit('cta')">棰勮椁愪綅</button>
+      <button class="nav-mobile-toggle" @click="mobileOpen = !mobileOpen" aria-label="鑿滃崟">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
           <line x1="4" y1="6" x2="20" y2="6"/>
           <line x1="4" y1="12" x2="20" y2="12"/>
@@ -84,3 +84,5 @@ function closeMobile() {
   .nav-cta { display: none; }
 }
 </style>
+
+
