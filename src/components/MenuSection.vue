@@ -19,7 +19,7 @@ import MenuCard from './MenuCard.vue'
 const menuItems = [
   {
     title: '黑松露野菌烩饭',
-    desc: '云南野生菌配意大利黑松露，帕玛森芝士慢煮',
+    desc: '黑松露与牛肝菌、鸡枞菌慢火熬煮，融帕玛森芝士，馥郁醇厚',
     price: 100,
     image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80'
   },
